@@ -12,7 +12,7 @@ int main()
     while (num != 1){
         // check for a factor
         if (num % it == 0)
-            // divide number with factor
+            // divide number with a factor
             num /= it;
         ++it;
     }
